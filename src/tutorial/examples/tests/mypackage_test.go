@@ -11,3 +11,11 @@ func TestExportedFunc(t *testing.T) {
 		t.Errorf("OK expected !")
 	}
 }
+
+func TestPrivateFunc(t *testing.T) { // We can even test private functions !
+	result := myPrivateFunction("test")
+
+	if result != "OK" {
+		t.Errorf("OK expected !")
+	}
+}

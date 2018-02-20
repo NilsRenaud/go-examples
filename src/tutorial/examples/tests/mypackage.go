@@ -8,3 +8,11 @@ func MyExportedFunction(name string) string {
 		return "KO"
 	}
 }
+
+func myPrivateFunction(name string) string {
+	if name != "" {
+		return "KO" //bug
+	} else {
+		return "KO"
+	}
+}
