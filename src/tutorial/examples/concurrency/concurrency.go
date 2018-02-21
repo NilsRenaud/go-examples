@@ -107,4 +107,4 @@ func FirstExitChannel() {
 }
 
 
-// And there is many ways to
+// And there is many ways to controle your threads/goroutines in the Async package (mutex, ...) have a look when needed !

@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestExportedFunc(t *testing.T) {
+func TestExportedFunc(t *testing.T) { // We will see * later (pointer !!)
 	result := MyExportedFunction("test")
 
 	if result != "OK" {

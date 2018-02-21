@@ -2,6 +2,7 @@ package interfaces
 
 import "fmt"
 
+// Every type having a method speak is an Animal now.
 type Animal interface {
   speak() string
 }
@@ -14,11 +15,11 @@ type Dog struct {
   master string
 }
 
-func (myPokemon Pokemon) speak() string {
+func (myPokemon Pokemon) speak() string { // Now Pokemon is an Animal
   return "pika !"
 }
 
-func (myDog *Dog) speak() string { //On pointer !
+func (myDog *Dog) speak() string { // We can define that on pointers too, see lines 35 & 38 to know why !
   if myDog == nil {
     return "Dog is null !" //Yes, we can call a function on a null object !
   }
