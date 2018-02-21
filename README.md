@@ -1,4 +1,6 @@
 
+Slides are here : https://docs.google.com/presentation/d/1A_4_oWK5BohgJeYAdbDw1rPx-vJerKxBYV2QD7kw0k0/edit?usp=sharing
+
 ## Before going further, set your GOPATH system variable as this folder
 $ export GOPATH=$(pwd)
 
